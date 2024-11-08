@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Album" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorAccent">@color/midnight_album</item>
+        <item name="colorPrimary">@color/midnight_album</item>
+    </style>
+
+    <style name="MidnightButton." parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/midnight</item>
+    </style>
+
+    <style name="FolkloreBtn" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/dark_grey</item>
+    </style>
+
+    <style name="Btn1989" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/tv1989</item>
+    </style>
+
+    <style name="Theme.Album" parent="Base.Theme.Album" />
+</resources>

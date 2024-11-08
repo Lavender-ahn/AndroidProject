@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="rounded">
+        <item name="cornerSize">10%</item>
+    </style>
+
+<!--    <style name="triangle">-->
+<!--&lt;!&ndash;        <item name="cornerSize">50%</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="cornerFamilyTopLeft">cut</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="cornerFamilyTopRight">cut</item>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <item name="cornerSizeBottomLeft">0%</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="cornerFamilyBottomLeft">cut</item>&ndash;&gt;-->
+<!--        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--            <item>-->
+<!--                <rotate-->
+<!--                    android:fromDegrees="45"-->
+<!--                    android:toDegrees="45"-->
+<!--                    android:pivotX="250%"-->
+<!--                    android:pivotY="80%">-->
+<!--                    <shape android:shape="rectangle">-->
+<!--                        <solid android:color="@color/colorAccent" />-->
+<!--                    </shape>-->
+<!--                </rotate>-->
+<!--            </item>-->
+<!--        </layer-list>-->
+<!--    </style>-->
+</resources>

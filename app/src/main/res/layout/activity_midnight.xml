@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Midnight">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/allerta"
+                android:text="MIDNIGHT"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:textColor="@color/midnight_album"
+                android:background="@color/midnight"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/midnight"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/midnight2" />
+
+                <Button
+                    android:id="@+id/mastermind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/allerta"
+                    android:gravity="center"
+                    android:text="Mastermind"
+                    android:textSize="21sp"
+                    android:theme="@style/MidnightButton." />
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="480dp"
+                android:background="@color/dark_grey"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"/>
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/midnight3" />
+
+                <Button
+                    android:id="@+id/bejeweled"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:fontFamily="@font/allerta"
+                    android:gravity="center"
+                    android:text="Bejeweled"
+                    android:textSize="21sp"
+                    android:theme="@style/MidnightButton." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/homePage"
+            android:layout_width="203dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="40dp"
+            android:text="Back To Home Page"
+            android:textColor="@color/white"
+            android:fontFamily="@font/allerta"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:theme="@style/MidnightButton."
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</ScrollView>

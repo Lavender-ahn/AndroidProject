@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#800080</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#00ff00</color>
+    <color name="teal">#FF03DAC5</color>
+    <color name="beige">#594A26</color>
+    <color name="sage">#9CAF88</color>
+    <color name="dark_blue">#003844</color>
+    <color name="pale_gray">#D3D3D3</color>
+    <color name="pale_purple">#6D6A75</color>
+    <color name="barca_blue">#004d98</color>
+    <color name="barca_red">#db0030</color>
+    <color name="maroon">#800020</color>
+    <color name="burnt_orange">#FB8C00</color>
+    <color name="midnight_album">#7692a7</color>
+    <color name="midnight">#020923</color>
+    <color name="dark_grey">#5C5C5C</color>
+    <color name="light_grey">#EBEBEB</color>
+    <color name="tv1989">#8BB5D2</color>
+    <color name="tvII1989">#659BBB</color>
+
+
+</resources>
